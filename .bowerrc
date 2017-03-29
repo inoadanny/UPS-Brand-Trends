@@ -1,0 +1,6 @@
+{
+  "proxy"       : "http://KQR2LSW:LOLRoflcopter2011$@proxy.njc.ups.com:8080/",
+  "https-proxy" : "http://KQR2LSW:LOLRoflcopter2011$@proxy.njc.ups.com:8080/",
+  "strict-ssl"  : false,
+  "directory" : "public/lib"
+}

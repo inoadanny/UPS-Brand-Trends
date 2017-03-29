@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UXAMS Line Chart</title>
+    <link rel="stylesheet" href="css/c3.min.css" type="text/css" />
+</head>
+<body>
+
+    <div class="container">
+        <div id="chart"></div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/c3.min.js"></script>
+    <script>
+        var chart = c3.generate({
+            data: {
+                columns: [
+                    ['data1', 300, 350, 300, 0, 0, 0],
+                    ['data2', 130, 100, 140, 200, 150, 50]
+                ]
+            }
+        });
+    </script>
+</body>
+</html>

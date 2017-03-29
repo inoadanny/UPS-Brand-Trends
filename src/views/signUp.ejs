@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>UPS Social Media Trends</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!--bower:css-->
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
+        <!--endbower-->
+        <!-- bower:js -->
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
+        <!-- inject:css-->
+        <link rel="stylesheet" href="/css/styles.css">
+                <link rel="stylesheet" href="/css/UXStyles.css">
+        <!-- endinject-->
+        <!--inject:js-->
+        <script src="/js/app.js"></script>
+        <!--endinject-->
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+  <header class="navbar navbar-fixed-top navbar-default ups-uxams-layout-header">
+        <div class="container-fluid">
+            <div class="row">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i id="hamburger" class="fa fa-bars" aria-hidden="true" style="color:#FFF;font-size:18px;"></i>
+                    <i id="hamburgerClose" class="fa fa-close" aria-hidden="true" style="color:#FFF;font-size:18px;display:none;"></i>
+                </button>
+                <div class="col col-md-4 application-title">
+                    <div class="zone zone-header">
+                        <a id="brandLink" class="navbar-brand" href="/">
+                            <img alt="Ups-Logo" class="img-responsive ups_logo" src="/img/UPS_Logo.png">
+                        </a>
+                    </div> &nbsp;
+                    <span id="bigBranding">UPS Social Media Trends</span>
+                    <span id="smallBranding">USMT</span>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse col-xs-12 col-sm-12 col-md-8 ups-topnav-topSection pull-right">
+                    <ul class="nav navbar-nav">
+                        <li id="searchMobile">
+                            <div class="ups-user-search" style="padding-left:0;">
+                                <div class="form-group ups-topnav-search">
+                                    <div id="searchFormGroup" class="form-group">
+                                        <div class="input-group">
+                                            <div class="awesomplete">
+                                                <input class="form-control" id="txtTopSearch" name="txtTopSearch" placeholder="Search All" type="text" value="" autocomplete="off" aria-autocomplete="list">
+                                                <ul hidden=""></ul><span class="visually-hidden" role="status" aria-live="assertive" aria-relevant="additions"></span>
+                                            </div><span id="spnTopSearch" class="input-group-addon"> <i class="fa fa-search fa-lg" style="display: inline-block;"></i> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <% for(var i=0; i<nav.length;i++) {%>
+                            <li><a href="<%=nav[i].Link%>"><%=nav[i].Text%></a></li>
+                        <%}%>
+
+                        <li id="searchDesktop">
+
+                            <div class="ups-user-search" style="padding-left:0;">
+                                <div id="searchFormGroup" class="form-group ups-topnav-search">
+                                    <div id="searchFormGroup" class="form-group">
+                                        <div class="input-group">
+                                            <div class="awesomplete">
+                                                <input class="form-control" id="txtTopSearchLarge" name="txtTopSearch" placeholder="Search All" type="text" value="" autocomplete="off" aria-autocomplete="list">
+                                                <ul hidden=""></ul><span class="visually-hidden" role="status" aria-live="assertive" aria-relevant="additions"></span>
+                                            </div><span id="spnTopSearchLarge" class="input-group-addon"> <i class="fa fa-search fa-lg" style="display: inline-block;"></i> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div id="masthead">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Sign Up</h1>
+      </div>
+    </div> 
+  </div><!-- /cont -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="top-spacer"> </div>
+      </div>
+    </div> 
+  </div><!-- /cont -->
+  
+</div>
+
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-12"> 
+      
+      <div class="panel">
+        <div class="panel-body">
+          
+          
+          
+          <!--/stories-->
+          <div class="row">    
+            <br>
+            <div class="col-md-6 text-center">
+              <h2>Sign Up</h2>
+                <form name="signInForm"
+                      action="/auth/signUp" 
+                      method="post">
+                  <label>First Name:</label> <input name="firstName" id="firstName" class="form-control"> <br/>
+                  Last Name: <input name="lastName" id="lastName" class="form-control"> <br /><hr/>
+                  Username: <input name="userName" id="userName" class="form-control"> <br/>
+                  Password: <input name="password" type="password" id="pass" class="form-control"> <br />
+                  <input type="submit" value="Sign Up!" class="btn btn-primary">
+                </form>
+            </div>
+          </div>
+          
+          <!--/stories-->
+
+        </div>
+      </div>
+                                                      
+   	</div><!--/col-12-->
+  </div>
+</div>
+                                                                                
+<hr>
+
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-sm-12">
+      
+      <h1>Follow Us</h1>
+      <div class="btn-group">
+       <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+	   <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+	   <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+      <div class="col-sm-6">
+          <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+      </div>
+    </div>
+  </div>
+</footer>
+	</body>
+</html>\
